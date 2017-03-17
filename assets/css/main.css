@@ -50,13 +50,13 @@
 	
 	/*clipping*/
 img {
-  width: 500px;
+  width: 400px;
  /* margin: 20px;*/
  
 }
 
 .clip-circle {
-  clip-path: circle(250px at center);
+  clip-path: circle(200px at center);
 }
 .clip-ellipse {
   clip-path: ellipse(300px 100px at center);
@@ -224,6 +224,7 @@ body, html {
 		top: 0;
 	}
 
+		
 	@-moz-keyframes bg {
 		0% {
 			-moz-transform: translate3d(0,0,0);
@@ -352,6 +353,10 @@ body, html {
 		top: 0;
 		width: 100%;
 	}
+	
+	
+	
+
 
 /* Main */
 
@@ -697,7 +702,7 @@ body, html {
 				#header nav a span {
 					display: none;
 				}
-
+		
 /* Footer */
 
 	#footer {
