@@ -65,6 +65,13 @@ img {
   clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
+.shadow-circle{
+    width:250px;
+    height:250px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 2px none;
+    border-radius: 50%;
+}
 
 body {
   background: linear-gradient(
